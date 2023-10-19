@@ -2,7 +2,7 @@
 
 <div align="center">
 <img src="./spaceApp.png" alt="spaceApp"  width="auto" height="auto"/>
-  <h3><b>Space Travelers Hub</b></h3>
+  <h3><b>SpaceTravelers Hub</b></h3>
 </div>
 
 <!-- TABLE OF CONTENTS -->
