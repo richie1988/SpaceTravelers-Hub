@@ -1,1 +1,10 @@
-/* The css comming soon */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../src/assets/spacetraveler.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

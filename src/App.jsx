@@ -1,17 +1,35 @@
-import { useState } from 'react'
-import './scss/main.scss'
-import Header from './components/Header'
+import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { useDispatch } from 'react-redux';
+import { useEffect } from 'react';
+import Navbar from './components/Navbar';
+import Missions from './pages/Mission';
+import { fetchRockets } from './redux/RocketSlices';
+import { fetchMissions } from './redux/MissionSlices';
+import Rockets from './components/Rockets';
+import Dragon from './components/Dragons';
+import Profile from './pages/Profile';
 
 function App() {
-  const [count, setCount] = useState(0)
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(fetchRockets());
+    dispatch(fetchMissions());
+  }, [dispatch]);
 
   return (
-    
-      <div>
-        <Header/>
-        <button className='button' onClick={()=> setCount((count)=> count + 1)}> count:{count}</button>
-        </div>      
-  )
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Rockets />} />
+        <Route path="/rockets" element={<Rockets />} />
+        <Route path="/missions" element={<Missions />} />
+        <Route path="/dragons" element={<Dragon />} />
+        <Route path="/profile" element={<Profile />} />
+      </Routes>
+    </Router>
+  );
 }
 
-export default App
+export default App;
