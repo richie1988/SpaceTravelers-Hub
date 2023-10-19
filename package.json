@@ -1,4 +1,5 @@
 {
+  "homepage": "https://richie1988.github.io/SpaceTravelers-Hub",
   "name": "spacetraveler",
   "private": true,
   "version": "0.0.0",
@@ -7,11 +8,17 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^1.9.7",
+    "axios": "^1.5.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.1.3",
+    "react-router-dom": "^6.17.0"
   },
   "devDependencies": {
     "@babel/core": "^7.23.0",
@@ -28,6 +35,7 @@
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
+    "gh-pages": "^6.0.0",
     "sass": "^1.69.0",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
