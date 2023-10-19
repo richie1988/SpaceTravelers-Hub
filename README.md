@@ -73,7 +73,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- Coming Soon
+- [Live Demo](https://richie1988.github.io/SpaceTravelers-Hub/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
