@@ -1,6 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
+<img src="./spaceApp.png" alt="spaceApp"  width="auto" height="auto"/>
   <h3><b>Space Travelers Hub</b></h3>
 </div>
 
@@ -8,7 +9,7 @@
 
 # 📗 Table of Contents
 
-- [� Table of Contents](#-table-of-contents)
+- [📗 Table of Contents](#-table-of-contents)
 - [📖 Meals Project ](#-meals-project-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
