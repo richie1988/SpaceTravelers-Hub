@@ -204,7 +204,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project, create a pull request or hit me up on [@r_miyoyo](https://twitter.com/r_miyoyo).
+If you like this project, create a pull request or hit me up on [@richie](https://twitter.com/richardsikaonga).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
